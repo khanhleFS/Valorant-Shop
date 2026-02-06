@@ -1,5 +1,5 @@
 package khanhle.shop.service.cart;
 
-public class CartService {
+public interface CartService {
     
 }

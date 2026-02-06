@@ -1,5 +1,5 @@
 package khanhle.shop.service.category;
 
-public class CategoryServiceImpl {
-    
+public class CategoryServiceImpl implements  CategoryService {
+
 }

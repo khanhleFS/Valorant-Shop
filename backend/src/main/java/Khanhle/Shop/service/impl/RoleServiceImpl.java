@@ -1,5 +1,7 @@
 package khanhle.shop.service.impl;
 
-public class RoleServiceImpl {
-    
+import khanhle.shop.service.RoleService;
+
+public class RoleServiceImpl implements RoleService {
+
 }

@@ -1,5 +1,7 @@
 package khanhle.shop.service.impl;
 
-public class AuthServiceImpl {
-    
+import khanhle.shop.service.AuthService;
+
+public class AuthServiceImpl implements AuthService {
+
 }

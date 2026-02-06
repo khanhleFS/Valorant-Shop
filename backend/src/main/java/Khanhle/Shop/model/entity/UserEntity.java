@@ -1,17 +1,16 @@
 package khanhle.shop.model.entity;
-
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
+import khanhle.shop.infrastructure.BaseEntity;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+
+import java.time.LocalDate;
 
 @Entity
 @Table(name = "users")
@@ -19,10 +18,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Getter
 @Setter
-public class UserEntity {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+public class UserEntity extends BaseEntity {
 
     @Column(name = "username", nullable = false, unique = true)
     private String username;
@@ -47,6 +43,9 @@ public class UserEntity {
 
     @Column(name= "avatar_url")
     private String avatarUrl;
+
+    @Column(name="birthday")
+    private LocalDate birthday;
 
     @Column(name= "status", nullable = false)
     private String status;

@@ -1,5 +1,5 @@
 package khanhle.shop.service.cart;
 
-public class CartServiceImpl {
-    
+public class CartServiceImpl implements  CartService {
+
 }

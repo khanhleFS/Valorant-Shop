@@ -1,4 +1,4 @@
-package Khanhle.Shop.model.dto.product;
+package khanhle.shop.model.dto.product;
 
 public class ProductResponseDTO {
     

@@ -1,4 +1,4 @@
-package Khanhle.Shop.model.dto.category;
+package khanhle.shop.model.dto.category;
 
 public class CategoryResponse {
     

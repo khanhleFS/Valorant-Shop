@@ -1,4 +1,4 @@
-package Khanhle.Shop.model.dto.auth;
+package khanhle.shop.model.dto.auth;
 
 public class LoginResponseDTO {
     

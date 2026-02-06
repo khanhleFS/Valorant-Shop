@@ -1,4 +1,4 @@
-package Khanhle.Shop.service.impl;
+package khanhle.shop.service.impl;
 
 public class UserServiceImpl {
     

@@ -1,4 +1,4 @@
-package Khanhle.Shop.service.product;
+package khanhle.shop.service.product;
 
 public class ProductService {
     

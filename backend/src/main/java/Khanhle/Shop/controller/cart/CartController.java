@@ -1,4 +1,4 @@
-package Khanhle.Shop.controller.cart;
+package khanhle.shop.controller.cart;
 
 public class CartController {
     

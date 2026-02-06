@@ -1,4 +1,4 @@
-package Khanhle.Shop.service.category;
+package khanhle.shop.service.category;
 
 public class CategoryServiceImpl {
     

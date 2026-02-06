@@ -1,4 +1,4 @@
-package Khanhle.Shop.service;
+package khanhle.shop.service;
 
 public interface AuthService {
     
